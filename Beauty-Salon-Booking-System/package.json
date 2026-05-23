@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test:ui": "node tests/ui-smoke.js",
+    "test:dashboard": "node tests/dashboard-check.js",
+    "test:mobile": "node tests/mobile-smoke.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
